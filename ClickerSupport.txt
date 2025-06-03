@@ -244,8 +244,8 @@ Upgrades
 	//building upgrades
 	
 	*buildingUpgrade1
-		name:Sippy bottles
-		desc:Your bugs can drink their fill!<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
+		name:Support categories
+		desc:Categorize your support requests!<//><b>Effect:</b><.>Paper ticket fixes x2<.>Electronic ticket fixes x2<.>rabbit coop production x2
 		icon:icons[2,0] icons[3,0]
 		cost:1000 bugs
 		passive:multiply yield of paperticket by 2
