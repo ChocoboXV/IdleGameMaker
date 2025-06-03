@@ -83,7 +83,7 @@ Buildings
 	*eticket|etickets
 		name:Electronic ticket|Electronic tickets
 		desc:Now your tickets are digitally misplaced instead of physically lost.<//><b>Effect:</b><.>Fixes 1 bug every 2 seconds.
-		icon:https://github.com/ChocoboXV/IdleGameMaker/raw/70c2d1580cfb2b0cf762a08a37b8855172ff7a5d/support-ticket.png
+		icon:https://github.com/ChocoboXV/IdleGameMaker/raw/0f324a99d03971d2e118da0741a0a996e813af02/support-ticket_48.png
 		cost:100 bugs
 		on tick:yield 0.5 bugs
 		req:100 bugs:earned
