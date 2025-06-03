@@ -72,18 +72,18 @@ Buildings
 	*TEMPLATE
 		on click:anim glow
 		
-	*cage|cages
-		name:Rabbit cage|Rabbit cages
-		desc:A tiny little cage.<//><b>Effect:</b><.>Produces 1 rabbit every 10 seconds.
-		icon:icons[3,0]
+	*paperticket|paperticketss
+		name:Paper ticket|Paper tickets
+		desc:Just write it down. Somewhere. Anywhere..<//><b>Effect:</b><.>Fixes 1 bug every 10 seconds.
+		icon:https://github.com/ChocoboXV/IdleGameMaker/raw/ca80302dee4bd47fbc06d84fd6b48e153ea2c1bd/sticky-note.png
 		cost:15 bugs
 		on tick:yield 0.1 bug
 		unlocked
 	
-	*hutch|hutches
-		name:Rabbit hutch|Rabbit hutches
-		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 rabbit every 2 seconds.
-		icon:icons[3,1]
+	*eticket|etickets
+		name:Electronic ticket|Electronic tickets
+		desc:Now your tickets are digitally misplaced instead of physically lost.<//><b>Effect:</b><.>Fixes 1 bug every 2 seconds.
+		icon:https://github.com/ChocoboXV/IdleGameMaker/raw/70c2d1580cfb2b0cf762a08a37b8855172ff7a5d/support-ticket.png
 		cost:100 bugs
 		on tick:yield 0.5 bugs
 		req:100 bugs:earned
@@ -248,30 +248,30 @@ Upgrades
 		desc:Your bugs can drink their fill!<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
 		icon:icons[2,0] icons[3,0]
 		cost:1000 bugs
-		passive:multiply yield of cage by 2
-		passive:multiply yield of hutch by 2
+		passive:multiply yield of paperticket by 2
+		passive:multiply yield of eticket by 2
 		passive:multiply yield of coop by 2
-		req:(cages>=10 or hutches>=10 or coops>=10)
+		req:(papertickets>=10 or etickets>=10 or coops>=10)
 		
 	*buildingUpgrade2
 		name:Prime grade hay
 		desc:Not just for horses anymore!<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
 		icon:icons[2,0] icons[3,1]
 		cost:100000 bugs
-		passive:multiply yield of cage by 2
-		passive:multiply yield of hutch by 2
+		passive:multiply yield of paperticket by 2
+		passive:multiply yield of eticket by 2
 		passive:multiply yield of coop by 2
-		req:(cages>=50 or hutches>=50 or coops>=50)
+		req:(papertickets>=50 or etickets>=50 or coops>=50)
 		
 	*buildingUpgrade3
 		name:Shredded newspapers
 		desc:You'd think they just poop on these, but they really enjoy reading the Sunday comics.<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
 		icon:icons[2,0] icons[3,2]
 		cost:5000000 bugs
-		passive:multiply yield of cage by 2
-		passive:multiply yield of hutch by 2
+		passive:multiply yield of paperticket by 2
+		passive:multiply yield of eticket by 2
 		passive:multiply yield of coop by 2
-		req:(cages>=100 or hutches>=100 or coops>=100)
+		req:(papertickets>=100 or etickets>=100 or coops>=100)
 		
 	*buildingUpgrade4
 		name:Pretty fences
