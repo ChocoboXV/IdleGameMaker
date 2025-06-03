@@ -72,7 +72,7 @@ Buildings
 	*TEMPLATE
 		on click:anim glow
 		
-	*paperticket|paperticketss
+	*paperticket|papertickets
 		name:Paper ticket|Paper tickets
 		desc:Just write it down. Somewhere. Anywhere..<//><b>Effect:</b><.>Fixes 1 bug every 10 seconds.
 		icon:https://github.com/ChocoboXV/IdleGameMaker/raw/ca80302dee4bd47fbc06d84fd6b48e153ea2c1bd/sticky-note.png
