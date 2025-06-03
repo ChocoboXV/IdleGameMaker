@@ -1,3 +1,8 @@
+Playable at
+https://orteil.dashnet.org/igm/?g=https://raw.githubusercontent.com/ChocoboXV/IdleGameMaker/refs/heads/main/ClickerSupport.txt
+
+Utilizes Idle Game Maker:  https://orteil.dashnet.org/igm/help.html#letSMakeAGame-1
+
 Contains icons from FlatIcon
 
 <a href="https://www.flaticon.com/free-icons/support-ticket" title="support ticket icons">Support ticket icons created by zero_wing - Flaticon</a>
