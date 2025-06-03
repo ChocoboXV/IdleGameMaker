@@ -75,7 +75,7 @@ Buildings
 	*paperticket|papertickets
 		name:Paper ticket|Paper tickets
 		desc:Just write it down. Somewhere. Anywhere..<//><b>Effect:</b><.>Fixes 1 bug every 10 seconds.
-		icon:https://github.com/ChocoboXV/IdleGameMaker/raw/0a7a0b288db1f687e09704b676f25861b308c00c/sticky-note_64.png
+		icon:https://github.com/ChocoboXV/IdleGameMaker/raw/ecad4b5f6b8d6c5cf56954c8eb9ab26ca0c19328/sticky-note_48.png
 		cost:15 bugs
 		on tick:yield 0.1 bug
 		unlocked
