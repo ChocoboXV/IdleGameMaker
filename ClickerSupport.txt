@@ -34,14 +34,14 @@ Resources
 	*bug|bugs
 		name:Bug|Bugs
 		desc:These are your bugs that you've fixed. You can use them to purchase things. Your goal is to have as many fixed bugs as possible!
-		icon:icons[0,0]
+		icon:https://github.com/ChocoboXV/IdleGameMaker/raw/0ae090b88e793f21c7ad82cf8647d08e9a17c649/bug.png
 		class:noBackground
 		show earned
 		
 	*goldenBug|goldenBugs
 		name:Golden bug|Golden bugs
 		desc:These shiny bugs are terribly rare, terribly precious and terribly destructive!
-		icon:icons[0,1]
+		icon:https://github.com/ChocoboXV/IdleGameMaker/blob/ed7dbecc01ae129657e3b5e9e36171fc293d8917/goldenbug.png
 		class:noBackground
 		hidden when 0
 		
