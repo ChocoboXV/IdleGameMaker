@@ -23,7 +23,7 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 bug
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenBug
-		icon:https://github.com/ChocoboXV/IdleGameMaker/blob/2c6ede2b730889d74629cbf08422b95f8797b98b/pc.png
+		icon:https://github.com/ChocoboXV/IdleGameMaker/raw/2c6ede2b730889d74629cbf08422b95f8797b98b/pc.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
