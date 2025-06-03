@@ -254,8 +254,8 @@ Upgrades
 		req:(papertickets>=10 or etickets>=10 or coops>=10)
 		
 	*buildingUpgrade2
-		name:Prime grade hay
-		desc:Not just for horses anymore!<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
+		name:Extended categories
+		desc:Even more categories!<//><b>Effect:</b><.>Paper ticket fixes x2<.>Electronic ticket fixes x2<.>rabbit coop production x2
 		icon:icons[2,0] icons[3,1]
 		cost:100000 bugs
 		passive:multiply yield of paperticket by 2
@@ -264,8 +264,8 @@ Upgrades
 		req:(papertickets>=50 or etickets>=50 or coops>=50)
 		
 	*buildingUpgrade3
-		name:Shredded newspapers
-		desc:You'd think they just poop on these, but they really enjoy reading the Sunday comics.<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
+		name:Subcategories
+		desc:Subcategories for your categories!<//><b>Effect:</b><.>Paper ticket fixes x2<.>Electronic ticket fixes x2<.>rabbit coop production x2
 		icon:icons[2,0] icons[3,2]
 		cost:5000000 bugs
 		passive:multiply yield of paperticket by 2
